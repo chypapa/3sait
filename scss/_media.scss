@@ -1,0 +1,417 @@
+
+@media(max-width: 2000px) {
+
+    %reg,
+    %but {
+        font-size: 1.2vw;
+    }
+    
+    .sl__image{
+        height: 70%;
+    }
+}
+
+@media(max-width: 1600px) {
+    %bold {
+        font-size: 1.5vw;
+    }
+
+    .sec h1 {
+        font-size: 3.6vw;
+    }
+
+    .filtrs-nav__item {
+        
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .sls {
+
+        width: 70%;
+    }
+
+    .accordion__rec {
+
+        margin: 1% 30%;
+
+    }
+
+
+    %reg,
+    %but {
+        font-size: 1.5vw;
+    }
+    .sls__pis{
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    .filtrs {
+
+        margin: 80px auto;
+    }
+}
+
+@media(max-width: 1333px){
+    .sls{
+        width: 70%;
+    }
+    .sl__image{
+        height: 60%;
+    }
+    .sls__pis{
+        
+        padding-top: 5%;
+    }
+    
+    %reg,
+    %but {
+        font-size: 1.6vw;
+    }
+    %bold{
+        font-size: 1.7vw;
+    }
+    .sec h1{
+        font-size: 3vw;
+    }
+    .filtrs-nav__item {
+        padding: 0 4%;
+    }
+}
+@media(max-width:1270px){
+    %reg,
+    %but {
+        font-size: 1.65vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 1.75vw;
+    }
+    .sec h1{
+        font-size: 3vw;
+    }
+    
+    
+}
+@media(max-width:1130px){
+    .filtrs {
+        margin: 40px auto;
+    }
+    .header__pis li {
+        padding: 0 2.5vw;
+    }
+    
+    .sls{
+        width: 80%;
+    }
+
+    %reg,
+    %but {
+        font-size: 1.8vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 1.9vw;
+    }
+    .sec h1{
+        font-size: 3vw;
+    }
+    .accordion__rec,
+    .accordion__content.active-content {
+        
+        margin: 1% 20%;}
+    .filt_l {
+        width: 25%;}
+    
+}
+@media (max-width:1000px ) {
+    %reg,
+    %but {
+        font-size: 2vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 2.2vw;
+    }
+    .sec h1{
+        font-size: 3vw;
+    }
+    .sec{
+        width: 80%
+    }
+    .filtrs,
+    .sls{
+        margin: 0 auto;
+    }
+    
+    .sl{
+        display: block;
+
+    }
+    .sl__content{
+        margin: 0;
+    }
+    .sl__image{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .sls__pis{
+        text-align: center;
+        margin: 0 10%;
+        padding: 10px 0;
+    }
+    .sls{
+        margin-bottom: 60px;
+    }
+    .f_h1{
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+    .t_h2 {
+        
+        padding: 20px 15%;
+    
+    }
+    .filtrs {
+        margin: 70px auto;}
+    .filt_l {
+    width: 30%;}
+    .description__img {
+        padding: 20px 0px;
+    
+    }
+}
+        
+
+@media(max-width:900px){
+    .header .header__pis {
+		display: none;
+	}
+	
+	.hamb-filed {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+        z-index: 1000;
+	}
+	
+	.popup {
+		display: none;
+		position: fixed;
+		width: 40%;
+		height: 100%;
+		top: 00px;
+		right: -100%;
+		z-index: 200;
+		display: flex;
+		background-color: rgb(206, 206, 206);
+		transition: 0.3s;
+	}
+	.popup.open {
+		right: 0;
+	}
+	.popup  .header__pis{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+        margin-top: 70px;
+		width: 100%;
+        
+	}
+	.popup  .header__pis li {
+        
+		margin: 10px 0;
+	}
+
+
+
+    .poloski{
+        background-size: contain;
+    }
+    .filtrs-nav__item {
+        
+        text-align: center;
+        padding: 0 7%;
+    }
+    .sec{
+        margin: 80px auto;
+    }
+}
+@media(max-width: 800px){
+    %reg,
+    %but {
+        font-size: 2.3vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 2.5vw;
+    }
+    .sec h1{
+        font-size: 3.6vw;
+    }
+    .f_h2{
+        padding: 20px 20%;
+    }
+    .acc_h2{
+        padding: 5px 10%;
+    }
+    
+    .tabs-content{
+        width: 70%;
+    }
+    
+}
+@media(max-width:700px){
+    %reg,
+    %but {
+        font-size: 2.6vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 2.8vw;
+    }
+    .sec h1{
+        font-size: 3.9vw;
+    }
+    .sec h2{
+        padding: 20px 10%;
+    }
+}
+@media(max-width:600px){
+    %reg,
+    %but {
+        font-size: 3vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 3.2vw;
+    }
+    .sec h1{
+        font-size: 4.3vw;
+    }
+    .sls__pis{
+        margin: 0;
+    }
+    .sls__pis h1,
+    .sls__pis h2{
+        padding-bottom: 20px;
+    }
+    %but{
+        padding: 0.9vw 1.5vw;
+    }
+    .filt_l{
+        width: 40%;
+    }
+    .description{
+        margin: 20px 2%;
+        align-items: flex-end;
+    }
+    .description h1,
+    .description__img{
+        margin: 0 auto;
+    }
+    .filtr.is-active {
+        display: block;
+       
+        align-items: center;
+        
+    }
+    .filt_l {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media(max-width:500px){
+    .filt_l {
+        width: 60%;}
+    %reg,
+    %but {
+        font-size: 3.5vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 3.7vw;
+    }
+    .sec h1{
+        font-size: 4.8vw;
+    }
+    .sec h2{
+        padding: 20px 0;
+    }
+    .accordion__rec,
+    .accordion__content.active-content {
+
+        margin: 1% 10%;
+
+    }
+    .t_h2,
+    .f_h2{
+        padding: 20px 10%;
+    }
+    %but{
+        padding: 1.2vw 1.8vw;
+    }
+    .sl__image{
+        width: 70%;
+    }
+}
+@media(max-width:400px){
+    .tabs-content,
+    .tabs .show{
+        display:block;
+         
+    }
+    .description{
+        margin-bottom: 20px;
+    }
+    %reg,
+    %but {
+        font-size: 4vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 4.4vw;
+    }
+    .sec h1{
+        font-size: 5.1vw;
+    }
+    .acc_h2,
+    .f_h2,
+    .t_h2{
+        padding: 10px 6%;
+    }
+    .sls__pis h2,
+    .sls__pis h1{
+        padding: 10px 0;
+    }
+    .accordion{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:350px){
+    %reg,
+    %but {
+        font-size: 4.5vw;
+    }
+    %bold,
+    .header__logo{
+        font-size: 4.9vw;
+    }
+    .sec h1{
+        font-size: 5.6vw;
+    }
+    %but{
+        padding: 1.5vw 2.1vw;
+    }
+    .youtube {
+        padding-bottom: 0;
+    }
+}
